@@ -274,9 +274,9 @@ int main(void)
 				//tp la particule au spawn
 				//Respawn(&particules[i]);
 			}
-		}*/
+		}
 
-		glBufferSubData(GL_ARRAY_BUFFER, 0, nParticules * sizeof(Particule), particules.data());
+		glBufferSubData(GL_ARRAY_BUFFER, 0, nParticules * sizeof(Particule), particules.data());*/
 
 
 		//AVEC COMPUTE SHADER
